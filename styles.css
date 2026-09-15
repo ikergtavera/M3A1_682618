@@ -1,0 +1,98 @@
+/* Estilos Base */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    margin: 0 0 8px 0;
+    font-size: 24px;
+}
+
+h3 {
+    margin: 0 0 8px 0;
+}
+
+/* Clases Reutilizables */
+.mb-24 {
+    margin-bottom: 24px;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    margin-right: 12px;
+}
+
+.nav-link-last {
+    margin-right: 0;
+}
+
+.btn {
+    background: #198754;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Decisión 1: Uso de clases para elementos que se repiten varias veces el la página */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+.card p {
+    color: #666;
+    margin: 0 0 12px 0;
+}
+
+.badge {
+    display: inline-block;
+    background: #ffeeba;
+    color: #664d03;
+    padding: 4px 8px;
+    border-radius: 4px; 
+}
+
+.intro-text {
+    color: #555;
+    line-height: 1.5;
+}
+
+.link-primary {
+    color: #0d6efd;
+    text-decoration: underline;
+}
+
+/* Uso de IDs y Etiquetas */
+header {
+    background: #0d6efd;
+    color: white;
+    padding: 16px;  
+}
+
+/* Decisión 2: Uso de ID #site-title porque es el título principal y es un elemento que solo aparece una vez. */
+#site-title {
+    margin: 0;
+    font-size: 28px;
+}
+
+main {
+    padding: 16px;
+}
+
+footer {
+    background: #f8f9fa;
+    color: #333;
+    text-align: center;
+    padding: 12px;
+}
